@@ -150,7 +150,7 @@ export const copycat = (n) => {
 }
 
 
-
+/*   ------    Below here is just studying some callback functions ------ */
 
 // [{name: 'Henk', age: 34}, {'name': 'Meric', age: 34}].map(obj => obj.name) // ['Henk', 'Meric']
 // .map2
