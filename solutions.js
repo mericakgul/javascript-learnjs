@@ -190,8 +190,8 @@ function filterOnMeric2Advanced (givenName) {
 }
 
 const lala = [{name: 'Henk', age: 34}, {'name': 'Meric', age: 34}]
-        .map(myCallback)
-        .filter(filterOnMeric2Advanced('Meric'));
+        .map(myCallback2('name'))  // ['Henk', 'Meric']
+        .filter(filterOnMeric1Advanced('Meric'));
 console.log('lala', lala)
 
 
